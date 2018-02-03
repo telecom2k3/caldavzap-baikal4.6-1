@@ -1,7 +1,7 @@
 /*
 CalDavZAP - the open source CalDAV Web Client
 Copyright (C) 2011-2015
-    Jan Mate <jan.mate@inf-it.com>
+    Jan Mate <jan.mate@inf-it.com> 
     Andrej Lezo <andrej.lezo@inf-it.com>
     Matej Mihalik <matej.mihalik@inf-it.com>
 
