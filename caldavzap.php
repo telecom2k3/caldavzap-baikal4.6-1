@@ -8,7 +8,7 @@
  * @copyright Copyright (c) 2017, Offerel
  * @license GNU General Public License, version 3
  */
- 
+
 class caldavzap extends rcube_plugin
 {
 	public $task = '.*';
