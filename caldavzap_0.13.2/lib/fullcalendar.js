@@ -1,6 +1,6 @@
 /**
  * @preserve
- * FullCalendar v1.5.4
+ * FullCalendar v1.5.4 
  * http://arshaw.com/fullcalendar/
  *
  * Use fullcalendar.css for basic styling.
