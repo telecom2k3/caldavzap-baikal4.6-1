@@ -6,7 +6,7 @@ This fork provides four functions:
 (1) Talks to a Baikal MySQL database to transparently <b>add</b> users to the Baikal MySQL database.  This plugin will automaticaly create both a <b>"default" calendar</b> and a <b>"default" contacts</b> database for the Roundcube user.<br>
 (2) Will <b>automatically set</b> Baikal user credentials to match that of the Roundcube user.<br>
 (3) Provides support for the <b>CATEGORIES</b> attribute so that CalDavZAP now supports the DTSTART, DTEND, SUMMARY, DESCRIPTION, RRULE, LAST-MODIFIED, CREATED, DUE, RECURRENCE-ID, EXDATE, TRIGGER, ACTION, STATUS, PERCENT-COMPLETE, UID, VERSION, TZOFFSETFROM, TZOFFSETTO, DURATION, CLASS, TRANSP, URL, and CATEGORIES attributes.<br>
-(4) Provides for <b>Event Coloring</b> (Red, Green, Blue, Yellow, Orange, Purple) compatible with MS Outlook.  The Selection Box optons in the CATEGORIES field was dervied from the Thunderbird, Rainlendar, and Outlook clients.
+(4) Provides for <b>Event Coloring</b> (Red, Green, Blue, Yellow, Orange, Purple) compatible with MS Outlook.  The Selection Box options in the CATEGORIES field was dervied from the Thunderbird, Rainlendar, and Outlook clients.
 
 Requirements:
 
