@@ -1,3 +1,5 @@
+<b>From the https://www.inf-it.com/caldavzap/readme.txt readme:</b>
+
 What you need to know before you start to configure the client:
 
  1.) principal URL for your server<br>
