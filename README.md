@@ -18,7 +18,9 @@ Installation:
 
 (1) Extract the contents of this archive into a plugin folder named "caldavzap".<br>
 (2) Modify the "config.inc.php" file in the top-level "caldavzap" folder appropriately.<br>
-(3) Modify the "config.js" file in the "caldavzap_0.13.2" folder appropriately.
+(3) Modify the "config.js" file in the "caldavzap_0.13.2" folder appropriately.<br>
+(4) Implement the Baikal database modifications per the instructions in "/plugins/caldavzap/caldavzap_0.13.2/misc/readme_baikal_sabredav.txt".
+
 
 Operation:
 
@@ -26,7 +28,15 @@ When a user clicks on Contacts or Calendar, the plugin will automatically create
 
 Testing:
 
-The CalDavZAP Calendar functions can be tested independently of Roundcube.  Simply point your browser to: "/plugins/caldavzap/caldavzap_0.13.2/index.php".
+(1) The CalDavZAP Calendar functions can be tested independently of Roundcube.  Simply point your browser to: "/plugins/caldavzap/caldavzap_0.13.2/index.php".
+
+(2) Caldavzap is an HTML5 Javascript client.  After making any changes, make sure you:
+
+  Run the "cache_update.sh" script in the "/plugins/caldavzap/caldavzap_0.13.2/" folder<br>
+  Clear your browser cache<br>
+  Close and restart the browser<br>
+  
+(3) Use Google Chrome's Developer Tools to identify problems with webserver content headers.
 
 
 
