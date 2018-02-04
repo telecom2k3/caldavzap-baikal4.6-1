@@ -21,36 +21,6 @@ igest auth)
         http://radicale.server.com:5232/<USERNAME>/ (Radicale example)
         http://osx.server.com:8008/principals/users/<USERNAME>/ (OS X example 1)
         https://osx.server.com:8443/principals/users/<USERNAME>/ (OS X example 2
-root@mail:/var/www/webmail/plugins/caldavzap/caldavzap_0.13.2# ls
-auth              css               lib              timezones.js
-cache_handler.js  data_process.js   license.txt      vcalendar.js
-cache.manifest    fonts             localization.js  vcalendar_rfc_regex.js
-cache_update.sh   forms.js          main.js          vtodo.js
-changelog.txt     images            misc             webdav_protocol.js
-common.js         index.html        rc.html
-config.js         interface.js      readme.txt
-config.js.orig    interface.js.bak  resource.js
-root@mail:/var/www/webmail/plugins/caldavzap/caldavzap_0.13.2# cat readme.txt
-What you need to know before you start to configure the client:
- 1.) principal URL for your server
- 2.) what is the difference between cross-domain and non cross-domain setup
- 3.) cross-domain setup problems and how to solve them (if you use cross-domain setup)
- 4.) digest authentication problems and how to solve them (if your server uses digest auth)
- 5.) problems with SSL /https/ and invalid (or self-signed) certificates
- 6.) choose your setup type (3 different setup types are supported)
- 7.) HTML5 cache update
- 8.) Generic installation instruction
- 9.) DAViCal (non cross-domain) installation instructions
-
-1.) Your principal URL
-    - What is my principal URL?
-      Check you server documentation!
-      Example principal URLs (<USERNAME> = your username):
-        http://davical.server.com/caldav.php/<USERNAME>/ (DAViCal example)
-        http://baikal.server.com/card.php/principals/<USERNAME>/ (Baïkal example)
-        http://radicale.server.com:5232/<USERNAME>/ (Radicale example)
-        http://osx.server.com:8008/principals/users/<USERNAME>/ (OS X example 1)
-        https://osx.server.com:8443/principals/users/<USERNAME>/ (OS X example 2)
 
 2.) Cross-domain / non cross-domain setup
     - What is the cross-domain setup?
