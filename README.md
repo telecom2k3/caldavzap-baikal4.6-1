@@ -30,10 +30,10 @@ Testing:
 
 (1) The CalDavZAP Calendar functions can be tested independently of Roundcube.  Simply point your browser to: "/plugins/caldavzap/caldavzap_0.13.2/index.php".<br>
 (2) Caldavzap is an HTML5 Javascript client.  After making any changes, make sure you:<pre>
-    - Run the "cache_update.sh" script in the "/plugins/caldavzap/caldavzap_0.13.2/" folder<br>
-    - Clear your browser cache<br>
+    - Run the "cache_update.sh" script in the "/plugins/caldavzap/caldavzap_0.13.2/" folder
+    - Clear your browser cache
     - Close and restart the browser</pre>
-(3) Use Google Chrome's Developer Tools to identify problems with webserver content headers.
+(3) Use Google Chrome's Developer Tools to identify any problems with webserver content headers.
 
 
 
