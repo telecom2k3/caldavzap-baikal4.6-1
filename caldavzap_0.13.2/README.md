@@ -58,7 +58,8 @@ igest auth)<br>
     NOTE: if cross-domain setup is detected you will see a warning in your browser's console!<br>
     NOTE: cross-domain setup is detected automatically and you don't need to set it manually in config.js!<br>
 
-3.) Cross-domain setup problems and how to solve them (if you use cross-domain setup)<br>
+3.) Cross-domain setup problems and how to solve them (if you use cross-domain setup)
+
     - Why cross-domain setup is problematic?<br>
       The client is written in JavaScript which has one major security limitation (it is hardcoded into browsers):<br>
         If you want to use cross-domain setup and your server NOT returns proper HTTP CORS headers (see http://www.w3.org/TR/cors/) then JavaScript REFUSES to make requests to your server (more precisely: it performs one OPTIONS request /called preflight request/ to check HTTP headers returned by your server, and if no proper CORS headers are returned, then the real request is NOT performed!).<br>
