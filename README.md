@@ -1,4 +1,4 @@
-# caldavzap-baikal4.6
+# rc-caldavzap-colors
 This is a fork of Offerel's CalDavZAP plugin for Roundcube.  CalDavZAP is a Javascript CalDAV client.  Offerel's package is a PHP wrapper, of sorts, for CalDavZAP, passing Roundcube user credentials to the Javascript client and rendering CalDavZAP within a Roundcube frame.  This fork is based upon Offerel's Version 1.04 release, with the "interface.js" fix from Version 1.1.
 
 This fork provides four functions:
