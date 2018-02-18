@@ -1,0 +1,24 @@
+{
+  "name": "rc-caldavzap-colors",
+  "version": "1.1",
+  "description": "Roundcube CalDavZAP plugin with event colors",
+  "bin": "/tmp/rc-caldavzap-colors",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/telecom2k3/rc-caldavzap-colors"
+  },
+  "keywords": [
+    "github",
+    "release"
+  ],
+  "author": "Jared Hall <telecom2k3@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/telecom2k3/rc-caldavzap-colors/issues"
+  },
+  "homepage": "https://github.com/telecom2k3/rc-caldavzap-colors",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
