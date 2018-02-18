@@ -20,11 +20,11 @@ Installation:
 (3) Modify the "config.js" file in the "caldavzap_0.13.2" folder appropriately.<br>
 (4) Implement the Baikal database modifications per the instructions in "/plugins/caldavzap/caldavzap_0.13.2/misc/readme_baikal_sabredav.txt".
 
-Operation:
+<ul>Operation:</ul>
 
 When a user clicks on Contacts or Calendar, the plugin will automatically create all the necessary user and database entries in the Baikal server.  If a Roundcube user's password changes, the plugin will automatically update the user entry in the Baikal server.
 
-Testing:
+<ul>Testing:</ul>
 
 (1) The CalDavZAP Calendar functions can be tested independently of Roundcube.  Modify the file "/plugins/caldavzap/caldavzap_0.13.2/config.js" to add your CalDAV server URL and then point your browser to: "/plugins/caldavzap/caldavzap_0.13.2/index.php".<br>
 (2) Caldavzap is an HTML5 Javascript client.  After making any changes, make sure you:<pre>
@@ -33,5 +33,7 @@ Testing:
     - Close and restart the browser</pre>
 (3) Use Google Chrome's Developer Tools to identify any problems with webserver content headers.
 
+<ul>Support:</ul>
 
+Support for this plugin is limited to compatibility with Roundcube only.  There are a lot of different CalDAV servers out there, all with different operating capabilities and configurations.  If you use Nextcloud, Owncloud, Purecloud, or WhatEver cloud, etc. please contact them for assistance.
 
