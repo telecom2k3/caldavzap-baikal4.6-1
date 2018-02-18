@@ -7,24 +7,24 @@ This fork provides three functions:
 (2) Provides for <b>Event Coloring</b> (Red, Green, Blue, Yellow, Orange, Purple) compatible with MS Outlook.  The Selection Box options in the CATEGORIES field was dervied from the Thunderbird, Rainlendar, and Outlook clients.<br>
 (3) Optionally, this plugin will talk to a Baikal MySQL database to transparently <b>add</b> users to the Baikal MySQL database.  This plugin will automaticaly create both a <b>"default" calendar</b> and a <b>"default" contacts</b> database for the Roundcube user.  This plugin <b>automatically sets</b> the Baikal user credentials to match that of the Roundcube user.  Users can <b>change their password</b> with the Roundcube "Password" plugin without any problems.<br>
 
-Requirements:
+<u>Requirements:</u>
 
   Baikal CalDAV Server, Version 4.6 with a MySQL database (option)<br>
   Roundcube Webmail package<br>
   PHP > 5.5 (PHP versions 5.6 and 7.2 tested)
 
-Installation:
+<u>Installation:</u>
 
 (1) Extract the contents of this archive into a plugin folder named "caldavzap".<br>
 (2) Copy the "config.inc.php.dist" in the top-level "caldavzap" folder to "config.inc.php" and modify appropriately.<br>
 (3) Modify the "config.js" file in the "caldavzap_0.13.2" folder appropriately.<br>
 (4) Implement the Baikal database modifications per the instructions in "/plugins/caldavzap/caldavzap_0.13.2/misc/readme_baikal_sabredav.txt".
 
-<ul>Operation:</ul>
+<u>Operation:</u>
 
 When a user clicks on Contacts or Calendar, the plugin will automatically create all the necessary user and database entries in the Baikal server.  If a Roundcube user's password changes, the plugin will automatically update the user entry in the Baikal server.
 
-<ul>Testing:</ul>
+<u>Testing:</u>
 
 (1) The CalDavZAP Calendar functions can be tested independently of Roundcube.  Modify the file "/plugins/caldavzap/caldavzap_0.13.2/config.js" to add your CalDAV server URL and then point your browser to: "/plugins/caldavzap/caldavzap_0.13.2/index.php".<br>
 (2) Caldavzap is an HTML5 Javascript client.  After making any changes, make sure you:<pre>
@@ -33,7 +33,7 @@ When a user clicks on Contacts or Calendar, the plugin will automatically create
     - Close and restart the browser</pre>
 (3) Use Google Chrome's Developer Tools to identify any problems with webserver content headers.
 
-<ul>Support:</ul>
+<u>Support:</u>
 
 Support for this plugin is limited to compatibility with Roundcube only.  There are a lot of different CalDAV servers out there, all with different operating capabilities and configurations.  If you use Nextcloud, Owncloud, Purecloud, or WhatEver cloud, etc. please contact them for assistance.
 
