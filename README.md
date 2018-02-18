@@ -17,7 +17,7 @@ Installation:
 
 (1) Extract the contents of this archive into a plugin folder named "caldavzap".<br>
 (2) Copy the "config.inc.php.dist" in the top-level "caldavzap" folder to "config.inc.php" and modify appropriately.<br>
-(3) Modify the "config.js" file in the "caldavzap_0.13.2" folder appropriately.<br>
+(3) Modify the "config_rc.js" file in the "caldavzap_0.13.2" folder appropriately.<br>
 (4) Implement the Baikal database modifications per the instructions in "/plugins/caldavzap/caldavzap_0.13.2/misc/readme_baikal_sabredav.txt".
 
 Operation:
