@@ -35,5 +35,9 @@ Testing:
 
 Support:
 
-Support for this plugin is limited to compatibility with Roundcube only.  There are a lot of different CalDAV servers out there, all with different operating capabilities and configurations.  If you use Nextcloud, Owncloud, Purecloud, or WhatEver cloud, etc. please contact them for assistance.
+Support for this plugin is limited to compatibility with Roundcube only.  There are a lot of different CalDAV servers out there, all with different operating capabilities and configurations.  Presently, I am Baikal-centric.  
 
+If you use Nextcloud, Owncloud, Purecloud, or WhatEver cloud, or some other CalDAV backend, please contact them for assistance.
+If you send me working configuration details for other servers, I will happily consolidate and post that information.
+
+Please check the Wiki pages for this project for additional information.
