@@ -1,0 +1,25 @@
+{
+        "name": "telecom2k3/caldavzap",
+        "description": "A plugin for Roundcube to include CalDAVZap in to the main GUI",
+        "keywords": ["CalDAV","Calendar","Tasks","ToDo","CalDAVZap","Colors"],
+        "homepage": "https://github.com/telecom2k3/rc-caldavzap-colors",
+        "type": "roundcube-plugin",
+        "license": "AGPL-3.0",
+        "version": "1.1",
+        "authors": [
+        {
+                "name": "telecom2k3",
+                "homepage": "https://github.com/telecom2k3",
+                "role": "Developer"
+        }
+        ],
+        "repositories": [
+        {
+                "type": "composer",
+                "url": "https://plugins.roundcube.net"
+        }
+        ],
+        "require": {
+        "roundcube/plugin-installer": ">=0.1.6"
+    }
+}
